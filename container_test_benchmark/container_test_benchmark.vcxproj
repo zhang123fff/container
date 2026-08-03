@@ -129,7 +129,9 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="benchmark.cpp" />
     <ClCompile Include="concurrent_hash_map_test.cpp" />
+    <ClCompile Include="lock_free_stack_test.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

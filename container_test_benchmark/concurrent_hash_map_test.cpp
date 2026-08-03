@@ -105,4 +105,4 @@ static void BM_HashMap_Mixed_ReadWrite(benchmark::State& state) {
 }
 BENCHMARK(BM_HashMap_Mixed_ReadWrite)->Range(1 << 10, 1 << 18)->Complexity();
 
-BENCHMARK_MAIN();
+//BENCHMARK_MAIN();

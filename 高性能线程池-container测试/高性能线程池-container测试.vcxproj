@@ -136,6 +136,7 @@
     <ClInclude Include="concurrent_hash_map.hpp" />
     <ClInclude Include="container.h" />
     <ClInclude Include="container_unit_test.h" />
+    <ClInclude Include="lock_free_stack.hpp" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="unit_test.cpp" />
